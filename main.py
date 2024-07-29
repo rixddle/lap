@@ -1,12 +1,12 @@
 import streamlit as st
 import pickle
-import scikit-learn
+import sklearn
 import numpy as np
 
 st.title("Laptop Price Predictor")
 
-pipe = pickle.load(open('pipe.pkl', 'rb'))
-df = pickle.load(open('data.pkl', 'rb'))
+pipe = pickle.load(open('pipe(1).pkl', 'rb'))
+df = pickle.load(open('data.pkl(2)', 'rb'))
 
 # brand
 company = st.selectbox('Brand', df['Company'].unique())
