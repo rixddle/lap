@@ -1,6 +1,6 @@
 import streamlit as st
 import pickle
-import sklearn
+import scikit-learn
 import numpy as np
 
 st.title("Laptop Price Predictor")
